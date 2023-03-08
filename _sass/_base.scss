@@ -21,9 +21,10 @@ h6 {
 
 a {
   color: #fff;
+  font-weight: bold;
   &:hover {
     text-decoration: underline;
-    color: darken($theme-color, 30%);
+    color: darken($text-color, 30%);
   }
   &:focus {
     text-decoration: none;
@@ -187,16 +188,26 @@ p {
       margin-bottom: 30px;
     }
   }
+  .experiences-section > .item{
+    margin-bottom: 30px 
+  }
   .upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
   }
+
+  .job-title{
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+
   .job-title,
   .degree {
     color: $text-color;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;

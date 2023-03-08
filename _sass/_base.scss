@@ -7,6 +7,7 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #272727;
 }
 
 h1,
@@ -19,7 +20,7 @@ h6 {
 }
 
 a {
-  color: darken($theme-color, 15%);
+  color: #fff;
   &:hover {
     text-decoration: underline;
     color: darken($theme-color, 30%);
@@ -44,6 +45,7 @@ p {
 }
 
 .sidebar-wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   grid-column: span 3;
   order: 2;
   background: $theme-color;
@@ -53,7 +55,6 @@ p {
   }
   .profile-container {
     padding: 30px;
-    //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
@@ -163,13 +164,15 @@ p {
 
 .main-wrapper {
   grid-column: span 7;
-  background: #fff;
+  background-color: #272727;
   padding: 60px;
+  color: $text-color;
   .section-title {
+    color: #ffc107;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: darken($theme-color, 15%);
+    font-weight: bold;
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -177,7 +180,7 @@ p {
   .section {
     margin-bottom: 60px;
   }
-
+  .main-wrapper 
   .experiences-section,
   .educations-section {
     .item {
@@ -261,11 +264,11 @@ p {
   }
   .level-bar {
     height: 12px;
-    background: $smoky-white;
+    background: rgba(0, 0, 0, 0.2);
   }
   .level-bar-inner {
     height: 12px;
-    background: lighten($theme-color, 15%);
+    background: #ffc107;
   }
 }
 

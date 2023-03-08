@@ -30,9 +30,13 @@
        display: none;
     }
 
-    .skillset .level-bar-inner {
+    .container-block-title{
+      border-color: black !important;
+    }
+    .skillset .progress-bar {
        background-color: black !important;
        -webkit-print-color-adjust: exact; 
+       color: #ffffff !important;
     }
 
    .fa-inverse,

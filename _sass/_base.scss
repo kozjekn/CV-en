@@ -262,13 +262,16 @@ p {
     margin-top: 0;
     margin-bottom: 12px;
   }
-  .level-bar {
-    height: 12px;
+  .progress {
+    height: 18px;
     background: rgba(0, 0, 0, 0.2);
   }
-  .level-bar-inner {
-    height: 12px;
-    background: #ffc107;
+  .progress-bar {
+    height: 18px;
+    background-color: #ffc107;
+    color: #202020;
+    font-weight: bold;
+    font-size: 15px;
   }
 }
 

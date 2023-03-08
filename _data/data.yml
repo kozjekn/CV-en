@@ -199,21 +199,27 @@ skills:
     toolset:
       - name: Python & Django
         level: 98%
+        caption: Expert
 
       - name: Javascript & jQuery
         level: 98%
+        caption: Expert
 
       - name: Angular
         level: 98%
+        caption: Expert
 
       - name: HTML5 & CSS
         level: 95%
+        caption: Expert
 
       - name: Ruby on Rails
         level: 85%
+        caption: Expert
 
       - name: Sketch & Photoshop
         level: 60%
+        caption: Expert
 
 footer: >
     Nejc Kozjek

@@ -7,7 +7,7 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #272727;
+  background-color: $background-color;
 }
 
 h1,
@@ -20,7 +20,7 @@ h6 {
 }
 
 a {
-  color: #fff;
+  color: $text-color-secondary;
   font-weight: bold;
   &:hover {
     text-decoration: underline;
@@ -50,15 +50,15 @@ p {
   grid-column: span 3;
   order: 2;
   background: $theme-color;
-  color: #fff;
+  color: $text-color-secondary;
   a {
-    color: #fff;
+    color: $text-color-secondary;
   }
   .profile-container {
     padding: 30px;
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
-    color: #fff;
+    color: $text-color-secondary;
   }
   .name {
     font-size: 32px;
@@ -81,7 +81,7 @@ p {
     //used for profile image
     max-width: 100px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    border: 0px solid $text-color-secondary;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
@@ -110,7 +110,7 @@ p {
     margin-top: 0;
     margin-bottom: 15px;
     padding-bottom: 6px;
-    border-bottom: 1px solid #ffc107;
+    border-bottom: 1px solid $secondary-color;
   }
   .degree {
     font-size: 14px;
@@ -165,11 +165,11 @@ p {
 
 .main-wrapper {
   grid-column: span 7;
-  background-color: #272727;
+  background-color: $background-color;
   padding: 60px;
   color: $text-color;
   .section-title {
-    color: #ffc107;
+    color: $secondary-color;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
@@ -201,6 +201,7 @@ p {
   .job-title{
     font-size: 20px !important;
     font-weight: bold !important;
+    color: $text-color-secondary !important;
   }
 
   .job-title,
@@ -279,8 +280,8 @@ p {
   }
   .progress-bar {
     height: 18px;
-    background-color: #ffc107;
-    color: #202020;
+    background-color: $secondary-color;
+    color: $background-color;
     font-weight: bold;
     font-size: 15px;
   }

@@ -43,50 +43,33 @@ sidebar:
         - item: Software development
           link:
 
+        - item: IT (proxmox, docker, K8S)
+          link:
+
         - item: 3D Printing
           link:
 
-        - item: Fitness
-          link:
-
-        - item: Fitness
+        - item: Robotics
           link:
 
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a young developer eager to learn new technologies and overall improve my knowledge. My current stack is .NET Core(C#), Microsoft SQL and Angular (HTML,SCSS,TS/JS).
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Graduated engineer in computer science and informatics
+        university: University of Ljubljana, Faculty of computer science and informatics 
+        time: 2017 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
+      - degree: Computer technician
+        university: School center Kranj 
+        time: 2013 - 2017
+        details: |        
+          
 experiences:
     title: Experiences
     info:

@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -54,7 +54,7 @@ sidebar:
 
 
 career-profile:
-    title: Career Profile
+    title: Introduction
     summary: |
       I am a young developer eager to learn new technologies and overall improve my knowledge. My current stack is .NET Core(C#), Microsoft SQL and Angular (HTML,SCSS,TS/JS).
 education:
@@ -73,138 +73,210 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Lead developer
+        time: 01/03/2021 – CURRENT
+        company: LSCTEH D.O.O. , Jesenice
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          I was tasked with leading a small team of developers. Our main focus was still on developnig ERP system and various integrations with some additional projects poping up from time to time.
+
+          **Responsibilities:**
+           - Implementing new features
+           - Solving comlex bugs
+           - Oveseeing development divison
+           - Basic project managment
+           - Ensuring quality of the code being commited to projects
+           - Participating in meetings with customers to discuss solutions tehnical solutions for their problems
+           - Planning and developing new solutions or features
+
+          **Noticeble projects:**
+           - Licencing system (also my diploma work)
+           - E-Invoice integration
+           - Terminal application for sheet metal industry
+           - Intergation of opeations between sheet metal software, our ERP and third ERP system (there where 3 very similar projects like this)
+           - Integration of terminal application into projects mentioned in previous point
+           - CI/CD pipeline for existing ERP system
+           - Containerization of existing ERP system
+           - Implemented plugin system into existing ERP system
+
+          **Stack:**
+            - C# (ASP .NET Core 3.1, .NET 6)
+            - Microsoft SQL
+            - Python
+            - Angular
+            - Vue.js
+            - Electron
+
+          **Additional tools/technologies:**
+            - Docker
+            - Ansible
+            - Gitlab
+            - Jira
+            - ELK (Logging solution)
+
+      - role: Fullstack developer
+        time: 01/10/2019 – 28/02/2021 
+        company: LSCTEH D.O.O. , Jesenice
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          I was mostly working on the backend part of an ERP system implementing new features from speficication provided to me by senior members of the team. 
+          At this point I also wanted to move some of my focus into learning frontend, so I did some bugfixing and later on I moved into doign new features as well.
+          
+          I also got some solo projects:
+            - Integration between our internal CRM system, sheet metal cutting software and a third ERP system
+            - Intergration for automaticly importig partners from REST API
+            - Pressure testing machine interface and Simens PLC integration
+
+          **Stack:**
+            - C# (ASP .NET Core 2.1, 3.1)
+            - Microsoft SQL
+            - Python
+            - Angular
+            - Node JS
+
+          **Additional tools/technologies:**
+            - Bitbucket
+            - Jira
+            - Raspberry pi
+
+      - role: Junior backend developer
+        time: 01/07/2019 – 30/09/2019 
+        company: LSCTEH D.O.O. , Lesce
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          Bugfixing and implementing new features for ERP system and developing small tools for internal use.
+          
+          **Stack:**
+            - C# (ASP .NET Core 2.1)
+            - Microsoft SQL
+            - Python
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+          **Additional tools/technologies:**
+            - Bitbucket
+            - Jira
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - role: Junior developer
+        time: 01/07/2018 – 30/12/2018
+        company: INFOTRANS, D.O.O, Kranj
+        details: |
+          Bugfixing and implementing new features for ERP system and developing small tools for internal use.
+          
+          **Stack:**
+            - Visual Basic
+            - Microsoft SQL
+        
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
-
+    # Beginner: You have basic knowledge of the language and can write simple programs, but you may struggle with more complex tasks.
+    # Intermediate: You have a good understanding of the language and can write more complex programs with some guidance.
+    # Advanced: You are highly skilled in the language and can write complex programs independently.
+    # Expert: You have extensive knowledge and experience in the language and can write highly optimized and efficient code.
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: C# (.NEt 6)
+        level: 100%
         caption: Expert
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Microsoft SQL
+        level: 100%
         caption: Expert
 
-      - name: Angular
-        level: 98%
-        caption: Expert
+      - name: Angular (HTML, SCSS, JS/TS)
+        level: 75%
+        caption: Advanced
 
-      - name: HTML5 & CSS
-        level: 95%
-        caption: Expert
+      - name: NodeJS
+        level: 55%
+        caption: Intermediate
 
-      - name: Ruby on Rails
-        level: 85%
-        caption: Expert
+      - name: Vue.js
+        level: 50%
+        caption: Intermediate
 
-      - name: Sketch & Photoshop
-        level: 60%
-        caption: Expert
+      - name: Django (Python)
+        level: 30%
+        caption: Beginner
+
+
+
+    additional-skills: 
+      - title: Docker
+      - title: K8S
+      - title: Electron
+      - title: Java
+      - title: Git
+      - title: Visual basic
+      - title: PHP
+      - title: Proxmox VE
+      - title: SCRUM
+      - title: Linux
+      - title: Arduino
+      - title: 3D modelling & 3D printing
+      - title: CI/CD (Gitlab CI, testing)
 
 footer: >
     Nejc Kozjek

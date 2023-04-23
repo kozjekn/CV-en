@@ -25,6 +25,8 @@
     {% endfor %}
 
   </div>
-
+  {% for add-skill in skills.additional-skills %}
+    <span class="badge rounded-pill">{{ add-skill.title }}</span>
+  {% endfor %}
 </section><!--//skills-section-->
 {% endif %}

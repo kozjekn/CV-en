@@ -237,7 +237,7 @@ skills:
     # Advanced: You are highly skilled in the language and can write complex programs independently.
     # Expert: You have extensive knowledge and experience in the language and can write highly optimized and efficient code.
     toolset:
-      - name: C# (.NEt 6)
+      - name: C# (.NET 6)
         level: 100%
         caption: Expert
 
